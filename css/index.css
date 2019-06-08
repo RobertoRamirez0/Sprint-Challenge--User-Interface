@@ -71,6 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.home-header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.home-header img {
+    width: 200px;
+}
+.home-header nav {
+    width: 600px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.home-header nav a {
+    text-decoration: none;
+    color: black;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
