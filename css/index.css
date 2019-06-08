@@ -199,3 +199,28 @@ footer nav a {
 
 /* about.html css starts here!!!!*/
 
+.about-header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-header img {
+    width: 200px;
+}
+.about-header nav {
+    width: 600px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-header nav a {
+    text-decoration: none;
+    color: black;
+}
+.about-image-top img {
+    padding-top: 20px;
+}
+.about-top-content {
+    padding: 20px;
+    border-bottom: dashed 1px black;
+}
