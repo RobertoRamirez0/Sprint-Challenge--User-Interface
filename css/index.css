@@ -95,6 +95,7 @@ p {
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 25px;
 }
 
 .top-content .text-container {
@@ -128,6 +129,38 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#teal-box {
+    background: teal;
+}
+
+#gold-box {
+    background: gold;
+}
+#cadetblue-box {
+    background: cadetblue;
+}
+#coral-box {
+    background: coral;
+}
+#crimson-box {
+    background: crimson;
+}
+#forestgreen-box {
+    background: forestgreen;
+}
+#darkorchid-box {
+    background: darkorchid;
+}
+#hotpink-box {
+    background: hotpink;
+}
+#indigo-box {
+    background: indigo;
+}
+#dodgerblue-box {
+    background: dodgerblue;
 }
 
 .bottom-content {
