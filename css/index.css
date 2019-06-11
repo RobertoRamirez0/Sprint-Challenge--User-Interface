@@ -70,13 +70,38 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+nav a:hover {
+    color: red;
+}
+.home-header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
+.home-header img {
+    width: 200px;
+}
+.home-header nav {
+    width: 600px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.home-header nav a {
+    text-decoration: none;
+    color: black;
+}
+.home-header nav a:hover {
+    color: red;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+    padding-top: 25px;
 }
 
 .top-content .text-container {
@@ -112,6 +137,38 @@ p {
     justify-content: center;
 }
 
+#teal-box {
+    background: teal;
+}
+
+#gold-box {
+    background: gold;
+}
+#cadetblue-box {
+    background: cadetblue;
+}
+#coral-box {
+    background: coral;
+}
+#crimson-box {
+    background: crimson;
+}
+#forestgreen-box {
+    background: forestgreen;
+}
+#darkorchid-box {
+    background: darkorchid;
+}
+#hotpink-box {
+    background: hotpink;
+}
+#indigo-box {
+    background: indigo;
+}
+#dodgerblue-box {
+    background: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +200,160 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* about.html css starts here!!!!*/
+
+.about-header {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-header img {
+    width: 200px;
+}
+.about-header nav {
+    width: 600px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.about-header nav a {
+    text-decoration: none;
+    color: black;
+}
+.about-header nav a:hover {
+    color: red;
+}
+.about-image-top img {
+    padding-top: 20px;
+}
+.about-top-content {
+    padding: 20px;
+    border-bottom: dashed 1px black;
+}
+.about-main-content {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.about-main-content .about-strat {
+    width: 370px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.about-main-content .about-strat p {
+    padding-bottom: 10px;
+}
+.about-main-content .about-strat button {
+    padding: 10px;
+    background: white;
+    border-block-end-style: solid;
+    border-style: solid;
+    border-radius: 6px;
+    width: 130px;
+    border-color: black;
+    font-size: unset;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.about-main-content .about-strat button:hover {
+    background: black;
+    color: white;
+}
+.about-main-content .about-how {
+    width: 370px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.about-main-content .about-how p {
+    padding-bottom: 10px;
+}
+.about-main-content .about-how button {
+    padding: 10px;
+    background: white;
+    border-block-end-style: solid;
+    border-style: solid;
+    border-radius: 6px;
+    width: 130px;
+    border-color: black;
+    font-size: unset;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.about-main-content .about-how button:hover {
+    background: black;
+    color: white;
+}
+.about-main-content .about-places {
+    width: 370px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about-main-content .about-places p {
+    padding-bottom: 10px;
+}
+.about-main-content .about-places button {
+    padding: 10px;
+    background: white;
+    border-block-end-style: solid;
+    border-style: solid;
+    border-radius: 6px;
+    width: 130px;
+    border-color: black;
+    font-size: unset;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.about-main-content .about-places button:hover {
+    background: black;
+    color: white;
+}
+.about-main-content .about-places img {
+    padding-top: 30px;
+    border-top: dashed 1px black;
+}
+.about-main-content .about-collab {
+    width: 370px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.about-main-content .about-collab p {
+    padding-bottom: 10px;
+}
+.about-main-content .about-collab button {
+    padding: 10px;
+    background: white;
+    border-block-end-style: solid;
+    border-style: solid;
+    border-radius: 6px;
+    width: 130px;
+    border-color: black;
+    font-size: unset;
+    color: black;
+    text-align: center;
+    cursor: pointer;
+}
+.about-main-content .about-collab button:hover {
+    background: black;
+    color: white;
+}
+.about-main-content .about-collab img {
+    padding-top: 30px;
+    border-top: dashed 1px black;
+}
+.about-bottom {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-top: dashed 1px black;
 }
